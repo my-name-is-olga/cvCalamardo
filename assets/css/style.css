@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /*Variables CSS para color */
+  --primary-color500: #3498db;
+  --primary-color400: #099aa4;
+
+  --secondary-color500: #c1c1c1;
+  --text-color-light: #f4f4f4;
+  --text-color-dark: #545454;
+}
+
+nav {
+  background-color: var(--primary-color400);
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#perfil{
+  border-radius: 50%;
+  display: block;
+  margin-top: 5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 3rem;
+  color: var(--primary-color400);
+}
+
+#formacion {
+  background-color: var(--primary-color400);
+  padding: 6rem;
+  margin-top: 5rem;
+}
+
+.text-titles-section {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.text-formation {
+  color: var(--text-color-light);
+}
+
+.icons {
+  text-align: center;
+  color: var(--text-color-light);
+  width: 15rem;
+  margin: 2rem;
+}
+
+.icons i {
+  font-size: 4rem;
+}
+
+.icons h3 {
+  font-size: 1.5rem;
+}
+
+.icons i,
+h3,
+p {
+  margin-top: 1rem;
+}
+
+#laboral {
+  padding: 2rem 6rem 2rem 6rem;
+  margin-top: 5rem;
+}
+
+.text-work {
+  color: var(--primary-color400);
+}
+
+.exp-laboral {
+  width: 25rem;
+  margin: 1.5rem;
+}
+
+.exp-laboral h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color400);
+}
+
+.exp-laboral h4 {
+  font-size: 1.15rem;
+  color: var(--primary-color500);
+}
+
+.exp-laboral p {
+  font-size: 1.15rem;
+  color: var(--text-color-dark);
+  margin-bottom: 1.5rem;
+}
+
+ul strong {
+  color: var(--primary-color400);
+}
+
+#carouselHero .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:50vh;
+  }
+  
+
+#comentarios {
+  color: var(--primary-color400);
+}
+
+#comentarios button {
+    color: white;
+    background-color: var(--primary-color400);
+}
+
+footer {
+  background-color: var(--primary-color400);
+  padding: 4rem;
+  margin-top: 1.5rem;
+}
+
+footer h5 {
+  color: var(--text-color-light);
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  color: var(--text-color-light);
+}
+
+.contact-icons {
+  margin: 1rem 0.75rem;
+  font-size: 3.5rem;
+}
